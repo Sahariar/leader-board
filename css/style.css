@@ -16,7 +16,7 @@ top: 0px;
 background: #562EFF;
 }
 .container{
-    width: 80%;
+    width: 870px;
     margin: 0 auto;
 }
 .flex{
@@ -55,4 +55,88 @@ transition: color 1s ease;
     width: 40px;
     max-height: 52px;
     padding-right: 10px;
+}
+
+/* Start Top Player Section */
+.sec-gap{
+    margin:36px 0;
+}
+.sec-white-area{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 33px;
+}
+.title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+color: #562EFF;
+}
+.player-infoarea {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.player img{
+width: 56px;
+height: 56px;
+padding: 20px;
+}
+.divider{
+    border: 1px solid #D1D1D1;
+}
+.blog-infoarea{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blogpostitem{
+    display: flex;
+}
+.blogpostitem img{
+width: 177px;
+height: 117px;
+padding: 14px;
+}
+.post-title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 34px;
+color: #000000;
+}
+.autohor-info{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #9F9F9F;
+}
+.autohor-info a{
+    color: #562EFF; 
+    text-decoration: none; 
+}
+/* Course Section */
+.course-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.course-item{
+    box-shadow: 0px 5.34229px 13.3557px rgb(0 0 0 / 5%);
+    padding: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.course-item img{
+width: 224px;
+height: 104px;
 }
