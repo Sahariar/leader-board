@@ -128,15 +128,69 @@ color: #9F9F9F;
 .course-area{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
 }
 .course-item{
-    box-shadow: 0px 5.34229px 13.3557px rgb(0 0 0 / 5%);
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
     padding: 11px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 20px;
 }
 .course-item img{
 width: 224px;
 height: 104px;
+}
+.info{
+    padding-left: 11px;
+}
+.course-title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20.0336px;
+line-height: 23px;
+color: #1E1E1E;
+}
+.auhtor a{
+    text-decoration: none;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14.6913px;
+line-height: 17px;
+color: #ED6B4F;
+}
+.meta-data {
+    display: flex;
+    justify-content: space-between;
+}
+.rating {
+    display: flex;
+    align-items: center;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.list img{
+    width:12.39px;
+height:11.81px;
+}
+.starcount {
+    padding-left: 10px;
+}
+.course-length{
+    background: #FFE4E8;
+border-radius: 14.6913px;
+padding:0 5px;
+}
+.timewr{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14.6913px;
+line-height: 20px;
+color: #FF4A60;
 }
