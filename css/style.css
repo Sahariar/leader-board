@@ -91,6 +91,7 @@ padding: 20px;
 }
 .divider{
     border: 1px solid #D1D1D1;
+    margin-top: 20px;
 }
 .blog-infoarea{
     display: grid;
@@ -165,6 +166,7 @@ color: #ED6B4F;
 .meta-data {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .rating {
     display: flex;
@@ -174,6 +176,19 @@ color: #ED6B4F;
     display: flex;
     align-items: center;
 }
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.fa-clock{
+    color: #FF4A60;
+}
+
 .list img{
     width:12.39px;
 height:11.81px;
@@ -184,7 +199,12 @@ height:11.81px;
 .course-length{
     background: #FFE4E8;
 border-radius: 14.6913px;
-padding:0 5px;
+padding: 5px 7px 5px;
+}
+.starcount{
+font-size: 14.6913px;
+line-height: 22px;
+color: #A2A2A2;
 }
 .timewr{
     font-family: 'Open Sans';
