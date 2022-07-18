@@ -219,7 +219,7 @@ color: #FF4A60;
         Media Queries
 ------------------------------*/
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .container{
         width: 80%;
         margin: 0 auto;
@@ -259,7 +259,7 @@ color: #FF4A60;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 992px){
 
     .container{
         width: 80%;
@@ -273,7 +273,7 @@ color: #FF4A60;
 
     }
     .player-infoarea {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .player {
         justify-content: center;
@@ -283,16 +283,15 @@ color: #FF4A60;
 
     .blog-infoarea {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .blogpostitem {
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
     }
     .course-area{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         column-gap: 15px;
         row-gap: 30px;
     } 
