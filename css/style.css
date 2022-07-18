@@ -10,10 +10,11 @@ body{
 
 .top-bar{
 width: 100%;
-height: 94px;
+max-height: 94px;
 left: 0px;
 top: 0px;
 background: #562EFF;
+
 }
 .container{
     width: 870px;
@@ -213,4 +214,86 @@ font-weight: 600;
 font-size: 14.6913px;
 line-height: 20px;
 color: #FF4A60;
+}
+/* --------------------------
+        Media Queries
+------------------------------*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .main-menu ul li {
+        margin: 0 0.6em;
+    }
+    .main-menu ul li a, .logo-wrapper h4 {
+        font-size: 14px;
+
+    }
+    .player-infoarea {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-infoarea {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blogpostitem {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+    .course-area{
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 15px;
+        row-gap: 30px;
+    } 
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .main-menu ul li {
+        margin: 0 0.6em;
+    }
+    .main-menu ul li a, .logo-wrapper h4 {
+        font-size: 14px;
+
+    }
+    .player-infoarea {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-infoarea {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blogpostitem {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+    .course-area{
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 15px;
+        row-gap: 30px;
+    } 
 }
